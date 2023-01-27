@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
+Route::get('/proyecto/{numero?}', function ($numero=1) {
+    return ("<h2>Estás en el proyecto número: $numero</h2>");
+})->where("numero","[0-9]+");
+

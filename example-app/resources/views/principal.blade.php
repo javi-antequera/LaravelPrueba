@@ -12,7 +12,7 @@
     <nav>
         <a href="{{url('principal.blade.php')}}">Principal</a>
         <a href="{{url('/nosotros')}}">Nosotros</a>
-        <a href="{{url('proyecto.blade.php')}}">Proyecto</a>
+        <a href="{{url('/proyecto')}}">Proyecto</a>
     </nav>
     @yield('nosotros')
 </body>
